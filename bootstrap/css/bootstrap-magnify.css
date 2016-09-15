@@ -1,0 +1,11 @@
+.magnify {
+    position: relative;
+    cursor: none
+}
+
+.magnify-large {
+    position: absolute;
+    display: none;
+    width: 350px;
+    height: 175px;
+}

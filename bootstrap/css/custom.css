@@ -1,0 +1,386 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+
+	.bumper-left {	
+		position: relative;
+		float: left;
+		width: 3%;
+		height: 100%;
+	}
+	.caption p {
+		margin-left: -20px;
+	}
+
+	p {
+		font-size: 18px;
+		color: black;
+	}
+
+	.embed-responsive {
+		margin-bottom: 50px;
+	}
+
+	.description {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.close {
+		float: right;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.caption p {
+	margin-left: -20px;
+	}
+
+	.embed-responsive {
+		margin-bottom: 50px;
+	}
+
+	.close {
+		float: right;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+
+	.description {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.close {
+		float: right;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		margin-right: 10px;
+	}
+
+	.embed-responsive {
+		margin-bottom: 50px;
+	}
+
+	.description {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.close {
+		float: right;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		margin-right: 10px;
+	}
+
+	.embed-responsive {
+		margin-bottom: 50px;
+	}
+
+	.description {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.close {
+		float: right;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		margin-right: 10px;
+	}
+
+	.embed-responsive {
+		margin-bottom: 30px;
+	}
+
+	.description {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}		
+
+	.titlebar {
+		line-height: 15px;	
+
+	}
+}
+
+
+@font-face {
+    font-family: 'liberation_sansitalic';
+    src: url('../fonts/liberationsans_italic_macroman/LiberationSans-Italic-webfont.eot');
+    src: url('../fonts/liberationsans_italic_macroman/LiberationSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans_italic_macroman/LiberationSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/liberationsans_italic_macroman/LiberationSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans_italic_macroman/LiberationSans-Italic-webfont.svg#liberation_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'liberation_sansbold';
+    src: url('../fonts/liberationsans_bold_macroman/LiberationSans-Bold-webfont.eot');
+    src: url('../fonts/liberationsans_bold_macroman/LiberationSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans_bold_macroman/LiberationSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/liberationsans_bold_macroman/LiberationSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans_bold_macroman/LiberationSans-Bold-webfont.svg#liberation_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'liberation_sansbold_italic';
+    src: url('../fonts/liberationsans_bolditalic_macroman/LiberationSans-BoldItalic-webfont.eot');
+    src: url('../fonts/liberationsans_bolditalic_macroman/LiberationSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans_bolditalic_macroman/LiberationSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/liberationsans_bolditalic_macroman/LiberationSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans_bolditalic_macroman/LiberationSans-BoldItalic-webfont.svg#liberation_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'liberation_sansregular';
+    src: url('../fonts/liberationsans_regular_macroman/LiberationSans-Regular-webfont.eot');
+    src: url('../fonts/liberationsans_regular_macroman/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans_regular_macroman/LiberationSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/liberationsans_regular_macroman/LiberationSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans_regular_macroman/LiberationSans-Regular-webfont.svg#liberation_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: distress;
+    src: url('../fonts/distress/distress-webfont.woff') format('woff'),
+         url('../fonts/distress/distress-webfont.woff2') format('woff2'),
+         url('../fonts/distress/distress.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+	#link {
+	padding: 0 10px;
+	background-color: #DEDEDE;
+	}
+
+#colophon {
+	padding: 0 10px;
+	background-color: #DEDEDE;
+	color: rgb(0,255,0);
+	text-align: center;
+	cursor: pointer;
+	height: 100px;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+#head {
+	margin-left: 5%;
+	color: black;
+	cursor: pointer;
+}
+
+.projects img {
+	max-width: 100%;
+	height: auto;
+	cursor: pointer;
+	transition: filter 1s linear ;
+	-webkit-transition: -webkit-filter 1s linear ;
+	-moz-transition: -moz-filter 1s linear ;
+}
+
+.projects img:hover {
+	filter: hue-rotate(10deg);
+	-webkit-filter: hue-rotate(10deg);
+	-moz-filter: hue-rotate(10deg);
+}
+
+.clicked {
+	
+}
+
+.project-page img {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.project-page .row {
+	margin-bottom:  1%;
+}
+
+.projects img:not(.under) {
+	padding: 2%;
+}
+.projects .row:nth-child(1){
+	margin-top: 2%;
+} 
+
+.projects .row {
+	/*margin-bottom: 5%;*/
+}
+
+.under {
+	margin-top: 40px;
+}
+
+#disclaimer {
+	width: auto;
+	height: auto;
+	background-color: yellow;
+	border: 1px solid black;
+	padding: 10px 20px;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	z-index: 10000000000;
+	display: none;
+}
+
+#textarea {
+	font-family: distress;
+	font-size: 7vmin;
+	line-height: 8vmin;
+	text-align: center;
+	width: 100%;
+	padding: 2%;
+	min-height: 70vh;
+	text-transform: uppercase; 
+	background-color: #fff;
+	border: 1px solid #FF8100;
+	color: black;
+	column-count: 2;
+	outline: none;
+	letter-spacing: -2px;
+}
+
+.titles {
+	position: relative;
+	position: fixed;
+	z-index: 999;
+	height: auto;
+	text-align: right;
+}
+
+#title {
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 4px;
+}
+
+#medium {
+	background-color: #CCCCCC;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#info {
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.titlebar {
+	font-weight: normal;
+	position: fixed;
+	z-index: 9999999;
+	width: auto;
+	display: block;
+}
+
+.zone {
+	width: 100%;
+	position: fixed;
+}
+
+.titles img {
+	float: left;
+	cursor: pointer;
+	margin-right: 20px;
+	/*	  -webkit-animation: myFlip 1s linear infinite; /* Chrome, Safari 5 */
+       /*-moz-animation: myFlip 1s linear infinite; /* Firefox 5-15 */
+         /*-o-animation: myFlip 1s linear infinite; /* Opera 12+ */
+            /*animation: myFlip 1s linear infinite;  Chrome, Firefox 16+, IE 10+, Safari 5  */
+}
+
+.header {
+	position: fixed;
+	height: 10px;
+	width: 100%;
+	color: blue;
+}
+
+.project-container {
+	display: none;
+	background-color: white;
+	overflow: auto;
+	right: 0;
+	width: auto;
+	z-index: 10000;
+	height: auto;
+}
+
+.project-page img {
+	max-width: 100%;
+	max-height: 700px;
+	align-content: center;
+	height: auto;
+}
+
+.click {
+	position: fixed;
+	width: 100%;
+}
+
+.magnifyThis {
+	max-width: 800px;
+}
+
+#title {
+	position: relative;
+}
+
+#top {
+	cursor: pointer;
+	text-align: right;
+}

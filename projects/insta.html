@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram test</title>
+
+	<script src="instafeed.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'd8d8d3f0ce4e490cbf3bee30342af073',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+    });
+    feed.run();
+	</script>
+</head>
+<body>
+
+<div id="instafeed"></div>
+
+</body>
+</html>
